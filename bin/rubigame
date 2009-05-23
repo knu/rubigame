@@ -1,0 +1,10 @@
+#!/bin/sh
+
+case "$(uname)" in
+    Darwin)
+        exec rsdl $0.rb
+        ;;
+    *)
+        exec ruby $0.rb
+        ;;
+esac

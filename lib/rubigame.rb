@@ -1,0 +1,1 @@
+require 'rubigame/game'
